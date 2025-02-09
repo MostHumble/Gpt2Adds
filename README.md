@@ -21,3 +21,10 @@ Right padding:
 
 Current hypothesis is that it's due to the 'absolute' positionnal embedding.
 
+# Reversing the target
+
+![download](https://github.com/user-attachments/assets/a1ff67f7-29a8-4863-97ee-fd1722620b3f)
+
+Simply reversing the target (e.g., instead of "1+12=13", "1+2=31") makes the model converge much faster, current hypothesis, is that it allows the cary to be learned much easily (ends up being included in the contextualized representation of the last token and thus being used for prediction the next token) => must investigate with attention patterns
+
+
